@@ -1,16 +1,23 @@
 {
-  "version": "1.0.0",
-  "build": 1,
-  "apkUrl": "https://github.com/mittohoa/memora-app/raw/main/apk/memora-v1.0.0.apk",
-  "notes": "Bản beta đầu tiên",
+  "version": "1.0.1",
+  "build": 2,
+  "apkUrl": "https://github.com/mittohoa/memora-app/raw/main/apk/memora-v1.0.1.apk",
+  "notes": "Giao diện mới: thanh điều hướng nổi + nhiều cải tiến",
   "date": "2026-07-25",
   "history": [
+    {
+      "version": "1.0.1",
+      "build": 2,
+      "date": "2026-07-25",
+      "apk": "apk/memora-v1.0.1.apk",
+      "notes": "Thanh điều hướng nổi (pill) + nút Hỏi AI tách riêng; nhóm feed; ghim; thùng rác & lưu trữ; chọn nhiều; sửa phân loại; lưu ảnh vào thư viện; thông báo bản mới trong app."
+    },
     {
       "version": "1.0.0",
       "build": 1,
       "date": "2026-07-25",
       "apk": "apk/memora-v1.0.0.apk",
-      "notes": "Bản beta đầu tiên — capture mọi thứ, AI phân loại/tóm tắt (đa provider), đồng bộ đa thiết bị, xem/phát/preview in-app, nhắc nhở, thùng rác, chọn nhiều."
+      "notes": "Bản beta đầu tiên — capture mọi thứ, AI phân loại/tóm tắt (đa provider), đồng bộ đa thiết bị, xem/phát/preview in-app, nhắc nhở."
     }
   ]
 }
