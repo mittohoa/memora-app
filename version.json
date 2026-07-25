@@ -1,10 +1,17 @@
 {
-  "version": "1.0.2",
-  "build": 3,
-  "apkUrl": "https://github.com/mittohoa/memora-app/raw/main/apk/memora-v1.0.2.apk",
-  "notes": "Cập nhật ngay trong app: tải ngầm + tự cài",
+  "version": "1.0.3",
+  "build": 4,
+  "apkUrl": "https://github.com/mittohoa/memora-app/raw/main/apk/memora-v1.0.3.apk",
+  "notes": "Sửa đồng bộ (không còn mất mục khi mở app) + màn trắng ở Bộ sưu tập; tin nhắn có link tự thành Liên kết đầy đủ",
   "date": "2026-07-25",
   "history": [
+    {
+      "version": "1.0.3",
+      "build": 4,
+      "date": "2026-07-25",
+      "apk": "apk/memora-v1.0.3.apk",
+      "notes": "Sửa đồng bộ Supabase (kéo đủ dữ liệu khi mở app/quay lại, không xoá nhầm mục local). Sửa màn hình trắng khi mở chuyên mục/nhãn tiếng Việt. Tin nhắn/ghi chú chứa link tự nâng cấp thành Liên kết đầy đủ (tiêu đề/ảnh/nền tảng thật). Dọn nhãn trùng. TikTok mở app gốc + màn dự phòng khi không xem được trong app."
+    },
     {
       "version": "1.0.2",
       "build": 3,
