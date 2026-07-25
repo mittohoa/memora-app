@@ -1,10 +1,17 @@
 {
-  "version": "1.0.5",
-  "build": 6,
-  "apkUrl": "https://github.com/mittohoa/memora-app/raw/main/apk/memora-v1.0.5.apk",
-  "notes": "AI tóm tắt & phân loại theo ngôn ngữ đang chọn (Việt/Anh)",
+  "version": "1.0.6",
+  "build": 7,
+  "apkUrl": "https://github.com/mittohoa/memora-app/raw/main/apk/memora-v1.0.6.apk",
+  "notes": "Hỏi–Đáp thông minh hơn bằng embeddings (tìm theo ngữ nghĩa)",
   "date": "2026-07-25",
   "history": [
+    {
+      "version": "1.0.6",
+      "build": 7,
+      "date": "2026-07-25",
+      "apk": "apk/memora-v1.0.6.apk",
+      "notes": "Hỏi–Đáp dùng embeddings (Gemini text-embedding-004): tìm mục theo ngữ nghĩa thay vì từ khoá, hỗ trợ đa ngôn ngữ; tự fallback về keyword khi không có key/lỗi."
+    },
     {
       "version": "1.0.5",
       "build": 6,
