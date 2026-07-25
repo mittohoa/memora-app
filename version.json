@@ -1,16 +1,23 @@
 {
-  "version": "1.0.3",
-  "build": 4,
-  "apkUrl": "https://github.com/mittohoa/memora-app/raw/main/apk/memora-v1.0.3.apk",
-  "notes": "Sửa đồng bộ (không còn mất mục khi mở app) + màn trắng ở Bộ sưu tập; tin nhắn có link tự thành Liên kết đầy đủ",
+  "version": "1.0.4",
+  "build": 5,
+  "apkUrl": "https://github.com/mittohoa/memora-app/raw/main/apk/memora-v1.0.4.apk",
+  "notes": "Đa ngôn ngữ Tiếng Việt / English — đổi trong Cài đặt, áp dụng tức thì",
   "date": "2026-07-25",
   "history": [
+    {
+      "version": "1.0.4",
+      "build": 5,
+      "date": "2026-07-25",
+      "apk": "apk/memora-v1.0.4.apk",
+      "notes": "Đa ngôn ngữ Tiếng Việt / English: chọn trong Cài đặt → Ngôn ngữ, toàn app đổi ngay không cần khởi động lại. Ghi nhớ lựa chọn."
+    },
     {
       "version": "1.0.3",
       "build": 4,
       "date": "2026-07-25",
       "apk": "apk/memora-v1.0.3.apk",
-      "notes": "Sửa đồng bộ Supabase (kéo đủ dữ liệu khi mở app/quay lại, không xoá nhầm mục local). Sửa màn hình trắng khi mở chuyên mục/nhãn tiếng Việt. Tin nhắn/ghi chú chứa link tự nâng cấp thành Liên kết đầy đủ (tiêu đề/ảnh/nền tảng thật). Dọn nhãn trùng. TikTok mở app gốc + màn dự phòng khi không xem được trong app."
+      "notes": "Sửa đồng bộ Supabase (kéo đủ dữ liệu khi mở app/quay lại, không xoá nhầm mục local). Sửa màn hình trắng khi mở chuyên mục/nhãn tiếng Việt. Tin nhắn/ghi chú chứa link tự nâng cấp thành Liên kết đầy đủ. Dọn nhãn trùng. TikTok mở app gốc + màn dự phòng."
     },
     {
       "version": "1.0.2",
