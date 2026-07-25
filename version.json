@@ -1,10 +1,17 @@
 {
-  "version": "1.0.4",
-  "build": 5,
-  "apkUrl": "https://github.com/mittohoa/memora-app/raw/main/apk/memora-v1.0.4.apk",
-  "notes": "Đa ngôn ngữ Tiếng Việt / English — đổi trong Cài đặt, áp dụng tức thì",
+  "version": "1.0.5",
+  "build": 6,
+  "apkUrl": "https://github.com/mittohoa/memora-app/raw/main/apk/memora-v1.0.5.apk",
+  "notes": "AI tóm tắt & phân loại theo ngôn ngữ đang chọn (Việt/Anh)",
   "date": "2026-07-25",
   "history": [
+    {
+      "version": "1.0.5",
+      "build": 6,
+      "date": "2026-07-25",
+      "apk": "apk/memora-v1.0.5.apk",
+      "notes": "AI trả lời theo ngôn ngữ UI: tóm tắt, chuyên mục, nhãn và Hỏi–Đáp bám theo ngôn ngữ đang chọn (Tiếng Việt / English)."
+    },
     {
       "version": "1.0.4",
       "build": 5,
