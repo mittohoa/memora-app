@@ -2,7 +2,7 @@
 
 Trang tải & giới thiệu ứng dụng **Memora**.
 
-📥 **Tải APK mới nhất:** [apk/memora-v1.0.1.apk](apk/memora-v1.0.1.apk)
+📥 **Tải APK mới nhất:** [apk/memora-v1.0.2.apk](apk/memora-v1.0.2.apk)
 🌐 **Trang giới thiệu:** https://mittohoa.github.io/memora-app/
 
 > *"Ném mọi thứ vào — Memora đọc · phân tích · phân loại · nhắc."*
@@ -10,6 +10,7 @@ Trang tải & giới thiệu ứng dụng **Memora**.
 ## Lịch sử phiên bản
 | Version | Build | Ngày | Ghi chú |
 |---|---|---|---|
+| 1.0.2 | 3 | 2026-07-25 | Cập nhật ngay trong app: tải ngầm + tự cài |
 | 1.0.1 | 2 | 2026-07-25 | Thanh điều hướng nổi + nhóm feed, ghim, thùng rác/lưu trữ, chọn nhiều, lưu ảnh, thông báo bản mới |
 | 1.0.0 | 1 | 2026-07-25 | Bản beta đầu tiên |
 
@@ -18,7 +19,7 @@ Trang tải & giới thiệu ứng dụng **Memora**.
 2. Mở file → cho phép "Cài từ nguồn không xác định" nếu được hỏi.
 3. Cài & mở app.
 
-App tự kiểm tra bản mới qua `version.json` và báo trong app khi có bản cập nhật.
+Từ trong app: khi có bản mới, banner ở Trang chủ sẽ **tải ngầm và tự bật cài đặt** (không cần mở trình duyệt).
 
 ---
 *Mã nguồn ở repo riêng (private).*
