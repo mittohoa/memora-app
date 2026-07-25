@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<title>Memora — Kho Ký ức</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Ném mọi thứ vào — Memora đọc, phân tích, phân loại và nhắc bạn xem lại. Kho lưu trữ cá nhân có AI.">
+<style>
+  :root{
+    --violet:#6D5DF6; --indigo:#4F46E5; --spark:#FBBF24;
+    --bg:#141127; --bg2:#1E1B3A; --card:#211e3c; --line:#302b52;
+    --fg:#efedfb; --sub:#a09dc4;
+    --font:"Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",Arial,sans-serif;
+  }
+  @media (prefers-color-scheme: light){
+    :root{ --bg:#F4F3FB; --bg2:#ffffff; --card:#ffffff; --line:#e7e5f2; --fg:#1f1d33; --sub:#615f80; }
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--font);line-height:1.6;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1000px;margin:0 auto;padding:0 22px}
+  a{color:var(--violet)}
+
+  /* hero */
+  .hero{text-align:center;padding:74px 22px 40px;position:relative;overflow:hidden}
+  .hero::before{content:"";position:absolute;inset:-40% 0 auto 0;height:520px;
+    background:radial-gradient(60% 60% at 50% 0,rgba(109,93,246,.28),transparent 70%);z-index:0}
+  .hero>*{position:relative;z-index:1}
+  .logo{width:88px;height:88px;border-radius:24px;display:inline-grid;place-items:center;
+    background:linear-gradient(135deg,#8B5CF6,var(--violet) 55%,var(--indigo));
+    box-shadow:0 18px 44px -14px var(--violet);position:relative;margin-bottom:22px}
+  .logo b{color:#fff;font-size:46px;font-weight:800;line-height:1}
+  .logo i{position:absolute;top:12px;right:13px;color:var(--spark);font-size:18px}
+  h1{font-size:clamp(34px,7vw,56px);margin:.1em 0 .05em;letter-spacing:-.03em;font-weight:800}
+  .tag{font-size:clamp(17px,3vw,21px);color:var(--sub);max-width:38ch;margin:.4em auto 0}
+  .tag b{color:var(--fg)}
+  .cta{display:inline-flex;gap:10px;align-items:center;margin-top:30px;padding:15px 28px;border-radius:16px;
+    background:linear-gradient(135deg,var(--violet),var(--indigo));color:#fff;text-decoration:none;
+    font-weight:700;font-size:17px;box-shadow:0 14px 30px -10px var(--violet);transition:transform .15s}
+  .cta:hover{transform:translateY(-2px)}
+  .meta{margin-top:14px;color:var(--sub);font-size:14px}
+  .beta{display:inline-block;margin-bottom:16px;font-size:12px;font-weight:700;letter-spacing:.12em;
+    text-transform:uppercase;color:var(--spark);background:rgba(251,191,36,.12);padding:5px 12px;border-radius:20px}
+
+  /* features */
+  section{padding:44px 0}
+  h2{font-size:26px;text-align:center;margin:0 0 8px;letter-spacing:-.01em;font-weight:750}
+  .lead{text-align:center;color:var(--sub);max-width:60ch;margin:0 auto 30px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+  .feat{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px 22px}
+  .feat .ic{width:40px;height:40px;border-radius:11px;display:grid;place-items:center;font-size:20px;margin-bottom:12px;
+    background:rgba(109,93,246,.16)}
+  .feat h3{margin:0 0 6px;font-size:16px}
+  .feat p{margin:0;color:var(--sub);font-size:14.5px}
+
+  /* flow */
+  .flow{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-top:8px}
+  .step{background:var(--card);border:1px solid var(--line);border-radius:30px;padding:9px 16px;font-size:14px;font-weight:600}
+  .step span{color:var(--violet)}
+
+  footer{text-align:center;padding:40px 22px 60px;color:var(--sub);font-size:13.5px;border-top:1px solid var(--line);margin-top:30px}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="logo"><b>M</b><i>✦</i></div>
+    <div class="beta">Beta · v1.0.0</div>
+    <h1>Memora — Kho Ký ức</h1>
+    <p class="tag"><b>Ném mọi thứ vào</b> — Memora đọc, phân tích, phân loại và nhắc bạn xem lại đúng lúc.</p>
+    <a class="cta" href="apk/memora-v1.0.0.apk" download>⬇ Tải APK cho Android</a>
+    <div class="meta">v1.0.0 · ~38 MB · Android 5.0+ · Miễn phí</div>
+    <div class="flow">
+      <div class="step">📥 Chộp</div>
+      <div class="step"><span>✦ AI</span> đọc &amp; phân loại</div>
+      <div class="step">🗂️ Tổ chức</div>
+      <div class="step">🔔 Nhắc xem lại</div>
+    </div>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2>Lưu một chạm, tìm lại tức thì</h2>
+    <p class="lead">Chia sẻ link, video, ảnh, bài Facebook, tin tức, tài liệu vào Memora. Phần còn lại để AI lo.</p>
+    <div class="grid">
+      <div class="feat"><div class="ic">✦</div><h3>AI tự động</h3><p>Nhặt tiêu đề, mô tả, ảnh, nền tảng rồi phân loại, gắn nhãn, tóm tắt. Nhiều nhà cung cấp, tự đảo key khi lỗi.</p></div>
+      <div class="feat"><div class="ic">▶</div><h3>Xem &amp; phát in-app</h3><p>Phát video YouTube/TikTok/Facebook, xem PDF, ảnh, Google Docs và bài web ngay trong app.</p></div>
+      <div class="feat"><div class="ic">💬</div><h3>Hỏi đáp trên kho</h3><p>Hỏi bằng ngôn ngữ tự nhiên về những gì bạn đã lưu — AI trả lời kèm nguồn.</p></div>
+      <div class="feat"><div class="ic">🗂️</div><h3>Tổ chức thông minh</h3><p>Nhóm feed, bộ sưu tập theo chuyên mục · nền tảng · loại · nhãn. Ghim, chưa xem, tìm kiếm.</p></div>
+      <div class="feat"><div class="ic">🔔</div><h3>Nhắc &amp; gợi ý</h3><p>Đặt nhắc từng mục, thông báo hằng ngày, gợi ý ký ức cũ nên xem lại.</p></div>
+      <div class="feat"><div class="ic">☁️</div><h3>Đồng bộ đa thiết bị</h3><p>Đồng bộ tức thời qua đám mây. Thùng rác (hoàn tác), lưu trữ, chọn nhiều. Dark mode.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap" style="text-align:center">
+    <h2>Sẵn sàng dùng thử?</h2>
+    <p class="lead">Bản beta — góp ý để hoàn thiện nhé.</p>
+    <a class="cta" href="apk/memora-v1.0.0.apk" download>⬇ Tải Memora v1.0.0</a>
+  </div>
+</section>
+
+<footer>
+  Memora — Kho Ký ức · Beta · Made with Flutter<br>
+  Cài đặt: tải APK → mở → cho phép cài từ nguồn không xác định.
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "build": 1,
+  "apkUrl": "https://github.com/mittohoa/memora-app/raw/main/apk/memora-v1.0.0.apk",
+  "notes": "Bản beta đầu tiên",
+  "date": "2026-07-25",
+  "history": [
+    {
+      "version": "1.0.0",
+      "build": 1,
+      "date": "2026-07-25",
+      "apk": "apk/memora-v1.0.0.apk",
+      "notes": "Bản beta đầu tiên — capture mọi thứ, AI phân loại/tóm tắt (đa provider), đồng bộ đa thiết bị, xem/phát/preview in-app, nhắc nhở, thùng rác, chọn nhiều."
+    }
+  ]
+}
