@@ -1,10 +1,18 @@
 {
-  "version": "1.0.12",
-  "build": 13,
-  "apkUrl": "https://github.com/mittohoa/memora-app/raw/main/apk/memora-v1.0.12.apk",
-  "notes": "Chọn giao diện Sáng / Tối trong app, và tìm lại được bộ lọc",
-  "date": "2026-07-26",
+  "version": "1.0.13",
+  "build": 14,
+  "apkUrl": "https://github.com/mittohoa/memora-app/raw/main/apk/memora-v1.0.13.apk",
+  "notes": "Ảnh chụp màn hình giờ tìm được bằng chữ trong ảnh; khoá app bằng vân tay",
+  "date": "2026-07-27",
   "history": [
+    {
+      "version": "1.0.13",
+      "build": 14,
+      "date": "2026-07-27",
+      "apk": "apk/memora-v1.0.13.apk",
+      "notes": "Memora đọc được chữ trong ảnh. Ảnh chụp màn hình — hoá đơn, mật khẩu wifi, đoạn chat, mã đơn hàng — trước đây chỉ là một tấm hình không tìm ra được; giờ chữ trong ảnh vào cả ô tìm kiếm, phần phân loại của AI lẫn tìm theo ngữ nghĩa, và màn chi tiết có mục \"Chữ trong ảnh\" kèm nút sao chép (không phải gõ tay mật khẩu nữa). Ảnh lưu từ trước cũng được đọc lại. Chạy hoàn toàn trên máy: không cần key, không gửi ảnh đi đâu. Thêm khoá app bằng vân tay hoặc mã máy (Cài đặt → Bảo mật): hỏi khi mở app và khi rời app quá một phút. Ngày tháng viết trong nội dung được nhận ra và đề nghị đặt nhắc. Tóm tắt hằng tuần vào tối chủ nhật. Bộ sưu tập thông minh: lưu một câu tìm theo ngữ nghĩa, mở ra là tính lại. Bản này nặng hơn (57 MB) vì mang sẵn mô hình đọc chữ trong máy.",
+      "size": "57.5 MB"
+    },
     {
       "version": "1.0.12",
       "build": 13,
