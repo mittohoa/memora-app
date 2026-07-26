@@ -1,10 +1,17 @@
 {
-  "version": "1.0.6",
-  "build": 7,
-  "apkUrl": "https://github.com/mittohoa/memora-app/raw/main/apk/memora-v1.0.6.apk",
-  "notes": "Hỏi–Đáp thông minh hơn bằng embeddings (tìm theo ngữ nghĩa)",
-  "date": "2026-07-25",
+  "version": "1.0.7",
+  "build": 8,
+  "apkUrl": "https://github.com/mittohoa/memora-app/raw/main/apk/memora-v1.0.7.apk",
+  "notes": "Trang chủ & Cài đặt gọn hơn, dùng ngay không cần đăng nhập, sửa lỗi không đồng bộ khi mở lại app",
+  "date": "2026-07-26",
   "history": [
+    {
+      "version": "1.0.7",
+      "build": 8,
+      "date": "2026-07-26",
+      "apk": "apk/memora-v1.0.7.apk",
+      "notes": "Trang chủ thiết kế lại: dải \"Hôm nay\" nêu đúng việc cần làm (nhắc sắp tới, chưa xem, chưa phân loại, trùng lặp), ô tìm và bộ lọc thu gọn. Cài đặt gom thành 6 nhóm, tài khoản Supabase chuyển vào đây. Mở app là dùng được ngay — đăng nhập chỉ cần khi muốn đồng bộ. Thông báo khi đăng nhập nói rõ nguyên nhân (sai mật khẩu, email chưa xác nhận, mất mạng, server không phản hồi) và không còn treo vô hạn. Sửa lỗi app không tự đồng bộ sau khi mở lại."
+    },
     {
       "version": "1.0.6",
       "build": 7,
