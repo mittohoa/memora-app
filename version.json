@@ -1,10 +1,17 @@
 {
-  "version": "1.0.11",
-  "build": 12,
-  "apkUrl": "https://github.com/mittohoa/memora-app/raw/main/apk/memora-v1.0.11.apk",
-  "notes": "Ô lệnh nằm dưới cho dễ với ngón tay, chip gọn lại, feed rộng thêm",
+  "version": "1.0.12",
+  "build": 13,
+  "apkUrl": "https://github.com/mittohoa/memora-app/raw/main/apk/memora-v1.0.12.apk",
+  "notes": "Chọn giao diện Sáng / Tối trong app, và tìm lại được bộ lọc",
   "date": "2026-07-26",
   "history": [
+    {
+      "version": "1.0.12",
+      "build": 13,
+      "date": "2026-07-26",
+      "apk": "apk/memora-v1.0.12.apk",
+      "notes": "Chọn Sáng / Tối / Theo hệ thống ngay trong Cài đặt → Hiển thị (trước đây chỉ chạy theo cài đặt của điện thoại). Bộ lọc quay lại: mở bằng mục Lọc trong nút ⋯, và khi đang lọc thì có icon phễu ở thanh trên để biết vì sao danh sách ngắn đi — bản trước làm gọn ô lệnh và vô tình che mất đường vào bộ lọc."
+    },
     {
       "version": "1.0.11",
       "build": 12,

@@ -2,7 +2,7 @@
 
 Trang tải & giới thiệu ứng dụng **Memora**.
 
-📥 **Tải APK mới nhất:** [apk/memora-v1.0.11.apk](apk/memora-v1.0.11.apk)
+📥 **Tải APK mới nhất:** [apk/memora-v1.0.12.apk](apk/memora-v1.0.12.apk)
 🌐 **Trang giới thiệu:** https://mittohoa.github.io/memora-app/
 
 > *"Ném mọi thứ vào — Memora đọc · phân tích · phân loại · nhắc."*
@@ -10,6 +10,7 @@ Trang tải & giới thiệu ứng dụng **Memora**.
 ## Lịch sử phiên bản
 | Version | Build | Ngày | Ghi chú |
 |---|---|---|---|
+| 1.0.12 | 13 | 2026-07-26 | Công tắc Sáng/Tối trong app; sửa lỗi mất lối vào bộ lọc (mở từ nút ⋯, có icon phễu khi đang lọc) |
 | 1.0.11 | 12 | 2026-07-26 | Ô lệnh nằm dưới (vùng ngón cái) và thấp hơn; chip gợi ý một hàng cuộn ngang → feed rộng thêm ~70px |
 | 1.0.10 | 11 | 2026-07-26 | Bỏ thanh điều hướng dưới (thanh mảnh + vuốt/3 chấm đổi giao diện); cuộn &amp; kéo thẻ mượt hơn; bản đồ vẽ lại + zoom đúng điểm chạm; gộp mục trùng; đồng bộ vector |
 | 1.0.9 | 10 | 2026-07-26 | Kết quả theo ngữ nghĩa chỉ hiện khi thật sự liên quan (không còn "gần nhất trong số không liên quan") |
