@@ -1,10 +1,17 @@
 {
-  "version": "1.0.9",
-  "build": 10,
-  "apkUrl": "https://github.com/mittohoa/memora-app/raw/main/apk/memora-v1.0.9.apk",
-  "notes": "Kết quả theo ngữ nghĩa chỉ hiện khi thật sự liên quan",
+  "version": "1.0.10",
+  "build": 11,
+  "apkUrl": "https://github.com/mittohoa/memora-app/raw/main/apk/memora-v1.0.10.apk",
+  "notes": "Bỏ thanh điều hướng dưới, cuộn mượt hơn, bản đồ vẽ lại, gộp mục trùng",
   "date": "2026-07-26",
   "history": [
+    {
+      "version": "1.0.10",
+      "build": 11,
+      "date": "2026-07-26",
+      "apk": "apk/memora-v1.0.10.apk",
+      "notes": "Bỏ thanh điều hướng dưới: giờ chỉ còn một thanh mảnh (tên trang · 3 chấm đổi giao diện · nút ⋯ dẫn tới Bộ sưu tập, Hỏi AI, Gợi ý, Thêm, Cài đặt) nên màn hình rộng hơn hẳn. Cuộn feed và kéo thẻ mượt hơn: danh sách chỉ dựng thẻ đang xem và ảnh không còn giải mã ở kích thước gốc. Bản đồ ký ức vẽ lại — nền mềm, chấm phát sáng, nhãn cụm không còn chồng nhau, có chú giải màu và nút thu phóng. Giao diện Command bar gọn lại chỉ còn ô lệnh. Mục trùng có nút Gộp (giữ bản đã ghim hoặc đầy đủ nhất, phần còn lại vào thùng rác, có Hoàn tác). Sửa thẻ Duyệt nhanh bị trong suốt làm chữ chồng lên nhau. Vector ngữ nghĩa được đồng bộ nên máy mới không phải tính lại cả kho."
+    },
     {
       "version": "1.0.9",
       "build": 10,
