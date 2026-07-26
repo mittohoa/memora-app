@@ -1,10 +1,17 @@
 {
-  "version": "1.0.8",
-  "build": 9,
-  "apkUrl": "https://github.com/mittohoa/memora-app/raw/main/apk/memora-v1.0.8.apk",
-  "notes": "Ba giao diện trang chủ để chọn, nhập bằng giọng nói, tìm theo ngữ nghĩa",
+  "version": "1.0.9",
+  "build": 10,
+  "apkUrl": "https://github.com/mittohoa/memora-app/raw/main/apk/memora-v1.0.9.apk",
+  "notes": "Kết quả theo ngữ nghĩa chỉ hiện khi thật sự liên quan",
   "date": "2026-07-26",
   "history": [
+    {
+      "version": "1.0.9",
+      "build": 10,
+      "date": "2026-07-26",
+      "apk": "apk/memora-v1.0.9.apk",
+      "notes": "Tìm theo ngữ nghĩa biết im lặng: trước đây kho không có gì liên quan thì vẫn hiện ra mục gần nhất — hỏi về nấu ăn lại ra bài nhạc con vịt. Nay chỉ những mục nổi rõ so với phần còn lại mới được hiện, và AI cũng không còn bị đưa ngữ cảnh yếu để đoán bừa."
+    },
     {
       "version": "1.0.8",
       "build": 9,
