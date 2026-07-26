@@ -1,10 +1,17 @@
 {
-  "version": "1.0.7",
-  "build": 8,
-  "apkUrl": "https://github.com/mittohoa/memora-app/raw/main/apk/memora-v1.0.7.apk",
-  "notes": "Trang chủ & Cài đặt gọn hơn, dùng ngay không cần đăng nhập, sửa lỗi không đồng bộ khi mở lại app",
+  "version": "1.0.8",
+  "build": 9,
+  "apkUrl": "https://github.com/mittohoa/memora-app/raw/main/apk/memora-v1.0.8.apk",
+  "notes": "Ba giao diện trang chủ để chọn, nhập bằng giọng nói, tìm theo ngữ nghĩa",
   "date": "2026-07-26",
   "history": [
+    {
+      "version": "1.0.8",
+      "build": 9,
+      "date": "2026-07-26",
+      "apk": "apk/memora-v1.0.8.apk",
+      "notes": "Chọn giao diện trang chủ trong Cài đặt → Hiển thị: Command bar (mặc định — một ô để dán link, tìm, hoặc hỏi AI), Duyệt nhanh (vuốt để dọn mục chưa xem: phải giữ, trái bỏ, lên ghim), hoặc Bản đồ ký ức (các mục xếp theo ý nghĩa, gần nhau là gần nghĩa). Nhập bằng giọng nói ở ô lệnh, Hỏi AI và màn Thêm. Ô tìm nay có thêm kết quả theo ngữ nghĩa, không chỉ từ khoá. Ghim và Đã xem đồng bộ giữa các thiết bị. Vector ngữ nghĩa không còn phụ thuộc một nhà cung cấp, và Cài đặt → AI có nút kiểm tra để biết nó có chạy hay không."
+    },
     {
       "version": "1.0.7",
       "build": 8,
