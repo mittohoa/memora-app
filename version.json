@@ -1,10 +1,17 @@
 {
-  "version": "1.0.10",
-  "build": 11,
-  "apkUrl": "https://github.com/mittohoa/memora-app/raw/main/apk/memora-v1.0.10.apk",
-  "notes": "Bỏ thanh điều hướng dưới, cuộn mượt hơn, bản đồ vẽ lại, gộp mục trùng",
+  "version": "1.0.11",
+  "build": 12,
+  "apkUrl": "https://github.com/mittohoa/memora-app/raw/main/apk/memora-v1.0.11.apk",
+  "notes": "Ô lệnh nằm dưới cho dễ với ngón tay, chip gọn lại, feed rộng thêm",
   "date": "2026-07-26",
   "history": [
+    {
+      "version": "1.0.11",
+      "build": 12,
+      "date": "2026-07-26",
+      "apk": "apk/memora-v1.0.11.apk",
+      "notes": "Ô lệnh chuyển xuống đáy màn hình — vùng ngón cái với tới, kết quả đọc ngược lên như cửa sổ chat — và thấp hơn 8px. Hàng chip gợi ý thu thành một hàng cuộn ngang thay vì hai hàng, nên feed rộng thêm khoảng 70px, đủ hiện thêm một thẻ."
+    },
     {
       "version": "1.0.10",
       "build": 11,
