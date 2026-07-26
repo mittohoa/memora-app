@@ -1,10 +1,18 @@
 {
-  "version": "1.0.14",
-  "build": 15,
-  "apkUrl": "https://github.com/mittohoa/memora-app/raw/main/apk/memora-v1.0.14.apk",
-  "notes": "Đọc mã QR trong ảnh đã lưu; sửa bản đồ ký ức không nhận cú chạm; Duyệt nhanh vuốt tuần tự",
+  "version": "1.0.15",
+  "build": 16,
+  "apkUrl": "https://github.com/mittohoa/memora-app/raw/main/apk/memora-v1.0.15.apk",
+  "notes": "Màn chi tiết và trang Cài đặt thiết kế lại cho gọn; xem được nội dung cần đăng nhập",
   "date": "2026-07-27",
   "history": [
+    {
+      "version": "1.0.15",
+      "build": 16,
+      "date": "2026-07-27",
+      "apk": "apk/memora-v1.0.15.apk",
+      "notes": "Mở một mục giờ dễ đọc. Trước đây màn chi tiết dội ra hơn mười khối cùng lúc — chip lặp lại, hộp đường dẫn, thẻ tóm tắt có nền màu, ba chip nhắc nhở nằm đó mãi, ghi chú, mã, chữ trong ảnh, bản lưu, liên quan. Nay chỉ còn một tầng: ảnh bìa (chạm là làm luôn việc chính), một dòng gọn ghi loại · nền tảng · thời gian, tiêu đề, tóm tắt, một nút chính kèm chuông nhắc, và nhãn trên một hàng. Ghi chú, chữ trong ảnh, mã QR, bản lưu offline, nguồn và mục liên quan gấp lại thành từng dòng, mở khi cần — không mất tính năng nào. Thanh trên còn ba nút, và những thao tác xoá/lưu trữ chuyển vào menu ⋮ nên không còn chạm trượt là mất mục. Trang Cài đặt cũng gọn lại: thẻ tài khoản, bốn ô dẫn tới Thùng rác / Lưu trữ / Đồng bộ / Khoá API kèm số lượng, mọi công tắc gom một chỗ, và ba mục chọn (giao diện, sáng/tối, ngôn ngữ) cùng một kiểu. Thêm cách xem nội dung cần đăng nhập: đăng nhập trang gốc ngay trong app (lần sau tự nhớ), hoặc mở bằng trình duyệt để dùng luôn phiên đăng nhập bạn đã có ở Chrome.",
+      "size": "57.5 MB"
+    },
     {
       "version": "1.0.14",
       "build": 15,
