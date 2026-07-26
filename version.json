@@ -1,10 +1,18 @@
 {
-  "version": "1.0.13",
-  "build": 14,
-  "apkUrl": "https://github.com/mittohoa/memora-app/raw/main/apk/memora-v1.0.13.apk",
-  "notes": "Ảnh chụp màn hình giờ tìm được bằng chữ trong ảnh; khoá app bằng vân tay",
+  "version": "1.0.14",
+  "build": 15,
+  "apkUrl": "https://github.com/mittohoa/memora-app/raw/main/apk/memora-v1.0.14.apk",
+  "notes": "Đọc mã QR trong ảnh đã lưu; sửa bản đồ ký ức không nhận cú chạm; Duyệt nhanh vuốt tuần tự",
   "date": "2026-07-27",
   "history": [
+    {
+      "version": "1.0.14",
+      "build": 15,
+      "date": "2026-07-27",
+      "apk": "apk/memora-v1.0.14.apk",
+      "notes": "Ảnh có mã QR giờ dùng được. Ảnh chụp QR wifi ở quán, QR thanh toán, mã vé — trước đây chỉ là một tấm hình; nay Memora đọc mã ngay trên máy và cho đúng một nút cần dùng: wifi thì sao chép mật khẩu (không phải cả đoạn mã), link thì mở hoặc lưu vào kho. Bản đồ ký ức: sửa lỗi màn hình không nhận cú chạm nào — chạm chấm không chọn được, kéo không đi, hai ngón không phóng được (chỉ hai nút +/− là chạy, nên nhìn tưởng bình thường). Giờ chạm chấm để xem, hai ngón phóng đúng vào chỗ đang nhìn, kéo để đi khi đã phóng, và vuốt ngang lúc chưa phóng thì đổi giao diện. Duyệt nhanh đổi thành duyệt tuần tự: vuốt lên để xem mục tiếp theo, đi hết kho chứ không tự nhảy về danh sách, có số thứ tự và nút Bỏ / Ghim / Xem. Ô lệnh gọn lại: một ô liền mạch thay vì ô nhỏ lồng trong ô, icon đầu dòng đổi màu theo việc bạn đang làm (tìm / lưu / hỏi AI).",
+      "size": "57.5 MB"
+    },
     {
       "version": "1.0.13",
       "build": 14,

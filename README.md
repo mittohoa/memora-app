@@ -2,7 +2,7 @@
 
 Trang tải & giới thiệu ứng dụng **Memora**.
 
-📥 **Tải APK mới nhất:** [apk/memora-v1.0.13.apk](apk/memora-v1.0.13.apk)
+📥 **Tải APK mới nhất:** [apk/memora-v1.0.14.apk](apk/memora-v1.0.14.apk)
 🌐 **Trang giới thiệu:** https://mittohoa.github.io/memora-app/
 
 > *"Ném mọi thứ vào — Memora đọc · phân tích · phân loại · nhắc."*
@@ -10,6 +10,7 @@ Trang tải & giới thiệu ứng dụng **Memora**.
 ## Lịch sử phiên bản
 | Version | Build | Ngày | Ghi chú |
 |---|---|---|---|
+| 1.0.14 | 15 | 2026-07-27 | Đọc mã QR trong ảnh đã lưu (wifi → sao chép mật khẩu; link → mở/lưu); sửa lỗi bản đồ ký ức không nhận cú chạm nào (giờ chạm chấm để xem, hai ngón phóng đúng chỗ); Duyệt nhanh thành duyệt tuần tự (vuốt lên xem mục sau); ô lệnh gọn lại một ô liền mạch |
 | 1.0.13 | 14 | 2026-07-27 | Đọc chữ trong ảnh (OCR trên máy) → ảnh chụp màn hình tìm được bằng chữ bên trong, có nút sao chép; khoá app bằng vân tay/mã máy; ngày trong nội dung → đề nghị đặt nhắc; tóm tắt hằng tuần; bộ sưu tập thông minh. **58 MB** (mang sẵn mô hình đọc chữ) |
 | 1.0.12 | 13 | 2026-07-26 | Công tắc Sáng/Tối trong app; sửa lỗi mất lối vào bộ lọc (mở từ nút ⋯, có icon phễu khi đang lọc) |
 | 1.0.11 | 12 | 2026-07-26 | Ô lệnh nằm dưới (vùng ngón cái) và thấp hơn; chip gợi ý một hàng cuộn ngang → feed rộng thêm ~70px |
