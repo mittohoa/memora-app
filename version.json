@@ -1,10 +1,18 @@
 {
-  "version": "1.0.16",
-  "build": 17,
-  "apkUrl": "https://github.com/mittohoa/memora-app/releases/download/v1.0.16/memora-v1.0.16.apk",
-  "notes": "Lối tắt khi giữ icon app; link TikTok/Facebook rút gọn hiện đúng nội dung bài; kiểm tra liên kết còn sống",
-  "date": "2026-07-27",
+  "version": "1.0.17",
+  "build": 18,
+  "apkUrl": "https://github.com/mittohoa/memora-app/releases/download/v1.0.17/memora-v1.0.17.apk",
+  "notes": "Tiêu đề đúng cho nhiều nền tảng hơn; video chặn nhúng vẫn xem được; dùng phiên đăng nhập sẵn có trong app",
+  "date": "2026-07-28",
   "history": [
+    {
+      "version": "1.0.17",
+      "build": 18,
+      "date": "2026-07-28",
+      "apk": "apk/memora-v1.0.17.apk",
+      "notes": "Bản này chủ yếu là sửa những chỗ trông như đang chạy tốt. Memora được đem thử với 54 kiểu link thật — mạng xã hội, video, nhạc, podcast, báo, mua sắm — thay vì chỉ vài link có sẵn trong máy, và lòi ra ba lỗi: chữ tiếng Việt bị vỡ thành \"Trang chá»§\" với những trang không khai báo bảng mã; những trang chặn máy quét (Shopee, Reddit, Dailymotion) bị lấy nguyên câu \"Please enable JavaScript\" làm tên mục; và tên nền tảng đôi khi ra sai thành \"Video từ M\". Kết quả: số mục lấy được tên thật tăng từ 22 lên 39, và không còn cái tên sai nào lọt vào kho. Video YouTube bị chủ kênh tắt tính năng nhúng thì trước đây hiện \"Lỗi 153\" và bạn không bấm được gì — nay app tự chuyển sang trang YouTube thật và xem bình thường. Bài Facebook cũng vậy: trước đây báo \"bạn không có quyền xem\" ngay cả với bài của chính bạn, vì app mở khung nhúng chứ không mở trang thật. Và khi bạn đã đăng nhập một nền tảng trong app, phần lấy tiêu đề giờ dùng chính phiên đó, rồi đọc lại các mục cũ của nền tảng đó. Sửa nhãn bị thừa dấu thăng (##Video).",
+      "size": "57.6 MB"
+    },
     {
       "version": "1.0.16",
       "build": 17,
