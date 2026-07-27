@@ -1,10 +1,18 @@
 {
-  "version": "1.0.15",
-  "build": 16,
-  "apkUrl": "https://github.com/mittohoa/memora-app/raw/main/apk/memora-v1.0.15.apk",
-  "notes": "Màn chi tiết và trang Cài đặt thiết kế lại cho gọn; xem được nội dung cần đăng nhập",
+  "version": "1.0.16",
+  "build": 17,
+  "apkUrl": "https://github.com/mittohoa/memora-app/raw/main/apk/memora-v1.0.16.apk",
+  "notes": "Lối tắt khi giữ icon app; link TikTok/Facebook rút gọn hiện đúng nội dung bài; kiểm tra liên kết còn sống",
   "date": "2026-07-27",
   "history": [
+    {
+      "version": "1.0.16",
+      "build": 17,
+      "date": "2026-07-27",
+      "apk": "apk/memora-v1.0.16.apk",
+      "notes": "Giữ icon Memora trên màn hình chính là có ngay ba lối tắt: Thêm, Hỏi AI, Gợi ý — vào thẳng việc cần làm, và bấm Back vẫn về trang chủ như thường. Link TikTok và Facebook dạng rút gọn giờ hiện đúng bài: lời chú thích người ta viết, ảnh bìa, tên tác giả — trước đây bốn mục trong kho đều mang cùng một cái tên của nền tảng, vì link rút gọn chưa bao giờ được đi tới đích thật. Các mục đã lưu từ trước cũng được đọc lại, không cần lưu lại. Sửa cả việc tác giả bị ghi thành tên TikTok của chính bạn (trang có tên bạn ở trên cùng, app đọc nhầm ô đó), và những tiêu đề hiện ra thành chuỗi ký tự lạ kiểu \"&#x110;&#x103;ng nh&#x1ead;p\". Màn Gợi ý thêm nút kiểm tra liên kết còn sống: quét cả kho, báo còn bao nhiêu link đã chết, và mạng yếu thì bỏ qua chứ không đánh dấu sai. Màn chi tiết có thêm dòng cho biết liên kết còn sống hay không, kiểm lúc nào. Những mục được đọc lại cũng được tóm tắt lại: trước đây phần tóm tắt chỉ nói \"đây là liên kết đến nền tảng TikTok\" vì nó được viết ra từ cái tên rỗng cũ — nay nó nói về chính bài đó; chuyên mục nào bạn tự sửa tay thì vẫn giữ nguyên. Duyệt nhanh: chạm vào thẻ là mở mục, nút Bỏ tách riêng ra cho khỏi chạm trượt.",
+      "size": "57.6 MB"
+    },
     {
       "version": "1.0.15",
       "build": 16,
