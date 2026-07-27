@@ -2,7 +2,9 @@
 
 Trang tải & giới thiệu ứng dụng **Memora**.
 
-📥 **Tải APK mới nhất:** [apk/memora-v1.0.16.apk](apk/memora-v1.0.16.apk)
+📥 **Tải APK mới nhất:** [memora-v1.0.16.apk](https://github.com/mittohoa/memora-app/releases/latest/download/memora-v1.0.16.apk) — hoặc xem [tất cả bản phát hành](https://github.com/mittohoa/memora-app/releases)
+
+> APK từ v1.0.16 nằm ở **GitHub Releases**, không commit vào repo nữa (mỗi bản ~58 MB).
 🌐 **Trang giới thiệu:** https://mittohoa.github.io/memora-app/
 
 > *"Ném mọi thứ vào — Memora đọc · phân tích · phân loại · nhắc."*

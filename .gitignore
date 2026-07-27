@@ -1,0 +1,9 @@
+# APKs live in GitHub Releases, not in the repo.
+#
+# Each build is ~58 MB, and git keeps every one of them forever: by v1.0.16 the
+# history alone had grown past 700 MB, and GitHub was warning on every push that
+# the file exceeded its 50 MB guideline. Releases carry the same file with no
+# such cost, and version.json already points at a URL — so the in-app updater
+# does not care where it lives.
+apk/
+*.apk
