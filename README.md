@@ -2,16 +2,18 @@
 
 Trang tải & giới thiệu ứng dụng **Memora**.
 
-📥 **Tải APK mới nhất:** [memora-v1.0.17.apk](https://github.com/mittohoa/memora-app/releases/latest/download/memora-v1.0.17.apk) — hoặc xem [tất cả bản phát hành](https://github.com/mittohoa/memora-app/releases)
+📥 **Tải APK mới nhất:** [memora-v1.0.18.apk](https://github.com/mittohoa/memora-app/releases/latest/download/memora-v1.0.18.apk) — hoặc xem [tất cả bản phát hành](https://github.com/mittohoa/memora-app/releases)
+
+🌐 **Trang giới thiệu:** https://mittohoa.github.io/memora-app/
 
 > APK từ v1.0.16 nằm ở **GitHub Releases**, không commit vào repo nữa (mỗi bản ~58 MB).
-🌐 **Trang giới thiệu:** https://mittohoa.github.io/memora-app/
 
 > *"Ném mọi thứ vào — Memora đọc · phân tích · phân loại · nhắc."*
 
 ## Lịch sử phiên bản
 | Version | Build | Ngày | Ghi chú |
 |---|---|---|---|
+| 1.0.18 | 19 | 2026-07-28 | **Mở app và quay lại app không còn chớp giật.** Mỗi lần đồng bộ, Memora ghi từng mục một vào máy và danh sách vẽ lại sau *từng* mục — kho 12 mục là màn hình nhấp nháy 12 lần liên tiếp, mỗi lần bạn mở app. Nay cả lượt đồng bộ ghi một lần, màn hình đổi một lần. Đồng bộ đứt giữa chừng cũng không còn để kho ở trạng thái nửa vời |
 | 1.0.17 | 18 | 2026-07-28 | Memora được thử với 54 kiểu link thật (mạng xã hội, video, nhạc, podcast, báo, mua sắm): số mục lấy được **tên thật tăng từ 22 lên 39**, không còn tên sai lọt vào kho. Sửa chữ tiếng Việt vỡ thành "Trang chá»§"; những trang chặn máy quét không còn bị lấy câu "Please enable JavaScript" làm tên mục. **Video YouTube bị tắt nhúng** (trước hiện "Lỗi 153", không bấm được gì) nay tự mở trang YouTube thật. Bài **Facebook** không còn báo "bạn không có quyền xem" với bài của chính bạn. Đã đăng nhập nền tảng nào trong app thì phần lấy tiêu đề dùng luôn phiên đó. Sửa nhãn thừa dấu thăng (##Video) |
 | 1.0.16 | 17 | 2026-07-27 | Giữ icon Memora là có ngay 3 lối tắt: Thêm · Hỏi AI · Gợi ý. Link TikTok/Facebook rút gọn giờ hiện đúng nội dung bài (lời chú thích + ảnh bìa) thay vì tên nền tảng — các mục lưu từ trước cũng được đọc lại; tác giả không còn bị ghi thành tên TikTok của chính bạn. Mục được đọc lại cũng được tóm tắt lại (trước chỉ nói "đây là liên kết đến nền tảng TikTok"), chuyên mục bạn tự sửa vẫn giữ nguyên. Nút kiểm tra liên kết còn sống ở màn Gợi ý (quét cả kho, báo bao nhiêu link đã chết). Duyệt nhanh: chạm thẻ để mở, nút Bỏ tách riêng cho khỏi chạm trượt |
 | 1.0.15 | 16 | 2026-07-27 | Màn chi tiết thiết kế lại cho gọn (một tầng thấy ngay, phần còn lại gấp thành từng dòng; thao tác xoá/lưu trữ vào menu ⋮); trang Cài đặt gọn lại (thẻ tài khoản · 4 ô điểm đến kèm số · công tắc một chỗ); xem nội dung cần đăng nhập (đăng nhập trong app hoặc dùng phiên Chrome) |
